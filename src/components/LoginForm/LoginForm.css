@@ -1,0 +1,19 @@
+form {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+form > label {
+    margin: 15px 0;
+    width: 100%;
+    display: block;
+}
+label > input {
+    border: 1px solid #e3e3e3;
+    height: 30px;
+    line-height: 1;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+}

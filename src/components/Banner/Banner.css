@@ -1,0 +1,49 @@
+.banner > img {
+    height: 150px;
+    object-fit: cover;
+}
+.half {
+    width: calc(50% - 7.5px);
+}
+
+.banner {
+    font-size: 0;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px;
+}
+.banner:nth-child(odd) {
+    margin-right: 2.5px;
+}
+.banner:nth-child(even) {
+    margin-left: 2.5px;
+}
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.banner > .banner-title {
+    font-size: 12px;
+    margin: 0;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    color: #fff;
+}
+
+.banner-bottom {
+    position: absolute;
+    bottom: 6px;
+    left: 10px;
+    width: calc(100% - 20px);
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}

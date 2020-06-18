@@ -1,0 +1,32 @@
+.user-name {
+    width: 80%;
+    margin: 20px auto;
+}
+.update-info {
+    width: 80%;
+    padding: 10px 0;
+    margin: 20px auto;
+}
+.update-info > * {
+    margin: 10px auto;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+}
+.update-btn, .goopter-btn {
+    border: 1px solid #e3e3e3;
+    background-color: #55A79A;
+    color: #fff;
+    padding: 8px 14px;
+    margin: 0 auto;
+}
+.button-container {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content-wrapper {
+    width: 80%;
+    font-size: 12px;
+    margin: 40px auto;
+}

@@ -1,0 +1,4 @@
+.banner-list {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,29 @@
+.bottom-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #e3e3e3;
+    justify-content: space-around;
+}
+
+.bottom-nav-item {
+    width: 20%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.bottom-nav-item > div {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+.bottom-nav-item > div:first-child {
+    width: 30%;
+    margin: 0 auto;
+    font-size: 0;
+}
+.bottom-nav-item {
+    text-decoration: none;
+}
